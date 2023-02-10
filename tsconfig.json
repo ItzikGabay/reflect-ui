@@ -19,7 +19,6 @@
     "isolatedModules": true,
     "sourceMap": true,
     "jsx": "react",
-    "declaration": true,
     "outDir": "./dist",
     "paths": {
       "*": ["./src/*"]

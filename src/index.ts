@@ -1,5 +1,3 @@
-import { Button } from './stories/Button';
-import { Header } from './stories/Header';
-import { Page } from './stories/Page';
-
-export { Button, Header, Page };
+export { Button } from './components/buttons/base-button/Button';
+export { Header } from './components/sections/header/Header';
+export { Page } from './components/pages/example/Page';
