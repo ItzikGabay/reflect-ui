@@ -20,5 +20,24 @@ const Template: ComponentStory<typeof TextInput> = (args) => (
 
 export const Base = Template.bind({});
 Base.args = {
-  label: 'Label',
+  label: 'example',
+  showError: false,
+  errorLabel: '',
+  value: 'Im a value',
+};
+
+export const Error = Template.bind({});
+Error.args = {
+  label: 'example',
+  showError: true,
+  errorLabel: 'This is a test error',
+  value: 'Im a value',
+};
+
+export const Success = Template.bind({});
+Success.args = {
+  label: 'example',
+  showSuccess: true,
+  successLabel: 'This is a success message',
+  value: 'Im a value',
 };

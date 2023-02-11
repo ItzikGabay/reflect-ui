@@ -5,4 +5,7 @@ export interface TextInputProps {
   value: string;
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   showError?: boolean;
+  errorLabel?: string;
+  showSuccess?: boolean;
+  successLabel?: string;
 }
