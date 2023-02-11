@@ -6,7 +6,11 @@ export default {
   title: 'Controls/Input/Text',
   component: TextInput,
   argTypes: {
-    backgroundColor: { control: 'color' },
+    showError: {
+      control: {
+        type: 'boolean',
+      },
+    },
   },
 } as ComponentMeta<typeof TextInput>;
 
