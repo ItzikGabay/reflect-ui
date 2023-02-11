@@ -41,3 +41,21 @@ Success.args = {
   successLabel: 'This is a success message',
   value: 'Im a value',
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  label: 'example',
+  disabled: true,
+  successLabel: 'This is a success message',
+  value: 'Im a value',
+};
+
+export const DisabledWithError = Template.bind({});
+DisabledWithError.args = {
+  label: 'example',
+  disabled: true,
+  showError: true,
+  errorLabel: 'This is a test error',
+  successLabel: 'This is a success message',
+  value: 'Im a value',
+};

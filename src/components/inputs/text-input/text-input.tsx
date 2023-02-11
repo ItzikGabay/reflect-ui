@@ -7,10 +7,11 @@ export const TextInput = ({
   label,
   value,
   onChange,
-  showError = false,
-  errorLabel = '',
-  showSuccess = false,
-  successLabel = '',
+  errorLabel,
+  successLabel,
+  showError,
+  showSuccess,
+  disabled,
   ...props
 }: TextInputProps) => {
   return (
@@ -19,10 +20,18 @@ export const TextInput = ({
         className={`${styles.container} ${addClassByCondition(
           showError,
           styles.error
-        )} ${addClassByCondition(showSuccess, styles.success)}`}
+        )} ${addClassByCondition(
+          showSuccess,
+          styles.success
+        )} ${addClassByCondition(disabled, styles.disabled)}`}
       >
         <label>{label}</label>
-        <input value={value} onChange={onChange} {...props} />
+        <input
+          value={value}
+          onChange={onChange}
+          {...props}
+          disabled={disabled}
+        />
       </div>
       {!showSuccess && showError && errorLabel && (
         <span className={styles.error_label}>{errorLabel}</span>

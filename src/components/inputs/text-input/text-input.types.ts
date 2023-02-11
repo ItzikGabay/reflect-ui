@@ -8,4 +8,6 @@ export interface TextInputProps {
   errorLabel?: string;
   showSuccess?: boolean;
   successLabel?: string;
+  disabled: boolean;
+  iconName?: string;
 }
