@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  gap: 5px;
+
+  .text {
+    &.xs {
+      font-size: 12px;
+    }
+
+    &.sm {
+      font-size: 14px;
+    }
+
+    &.md {
+      font-size: 16px;
+    }
+
+    &.lg {
+      font-size: 18px;
+    }
+
+    &.xl {
+      font-size: 20px;
+    }
+
+    &.xxl {
+      font-size: 24px;
+    }
+
+    &.xxxl {
+      font-size: 28px;
+    }
+
+    &.xLarge {
+      font-size: 32px;
+    }
+
+    &.xxLarge {
+      font-size: 36px;
+    }
+
+    &.xxxLarge {
+      font-size: 40px;
+    }
+  }
+}
+

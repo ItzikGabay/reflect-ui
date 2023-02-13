@@ -3,7 +3,7 @@ import React from 'react';
 import { TextInput } from './text-input';
 
 export default {
-  title: 'Controls/Input/Text',
+  title: 'UI/Input',
   component: TextInput,
   argTypes: {
     showError: {
