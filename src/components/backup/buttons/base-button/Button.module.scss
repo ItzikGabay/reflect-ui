@@ -1,4 +1,4 @@
-@import "../../../styles/abstracts/variables";
+@import "../../../../styles/abstracts/variables";
 
 .button {
   position: relative;
@@ -58,7 +58,7 @@
     display: none;
     width: 16px;
     height: 16px;
-    background: url(../../../assets/icons/loading.svg) no-repeat;
+    background: url(../../../../assets/icons/loading.svg) no-repeat;
     background-position: center;
     margin-right: 10px;
     vertical-align: text-top;

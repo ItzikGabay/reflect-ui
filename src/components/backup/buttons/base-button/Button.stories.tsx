@@ -2,9 +2,9 @@ import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
 import { Button } from './Button';
-import { ReactComponent as ArrowDownIcon } from '../../../assets/icons/arrowDown.svg';
-import { ReactComponent as EmailIcon } from '../../../assets/icons/email.svg';
-import design from '../../../../.storybook/utils';
+import { ReactComponent as ArrowDownIcon } from '../../../../assets/icons/arrowDown.svg';
+import { ReactComponent as EmailIcon } from '../../../../assets/icons/email.svg';
+import design from '../../../../../.storybook/utils';
 
 const icons = { ArrowDownIcon, EmailIcon, 'No icon': undefined };
 const iconsSelect = {

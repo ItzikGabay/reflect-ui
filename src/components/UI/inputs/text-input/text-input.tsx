@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './text-input.module.scss';
 import { TextInputProps } from './text-input.types';
-import { addClassByCondition } from '../../../lib/utils/styles';
+import { addClassByCondition } from '../../../../lib/utils/styles';
 
 export const TextInput = ({
   label,
